@@ -140,7 +140,7 @@ if page == "Dashboard":
     st.caption("Real-time Anti-Money Laundering & Fraud Detection | Powered by AzurizedAMLSolution")
 
     # Connection status
-    col_status, _, _ = st.columns([1, 8, 1])
+    col_status, _, _ = st.columns([2, 6, 2])
     with col_status:
         if health_status.get("ok"):
             st.success("API Health: OK")
